@@ -1,7 +1,7 @@
 
 <html>
 <head>
-	<title>Personal Media Library</title>
+	<title><?php echo "Personal Media Library";?></title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -10,7 +10,7 @@
 
 		<div class="wrapper">
 
-			<h1 class="branding-title"><a href="./">Personal Media Library</a></h1>
+			<h1 class="branding-title"><a href="#">Personal Media Library</a></h1>
 
 			<ul class="nav">
                 <li class="books"><a href="#">Books</a></li>
@@ -49,7 +49,7 @@
 				<li><a href="#">Facebook</a></li>
 			</ul>
 
-			<p>&copy;2015 Personal Media Library</p>
+			<p>&copy;<?php echo date("Y");?> Personal Media Library</p>
 
 		</div>
 	
