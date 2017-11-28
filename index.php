@@ -1,59 +1,35 @@
 
-<html>
-<head>
-	<title><?php echo "Personal Media Library";?></title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-<body>
+<?php include ("inc/header.php");?>
+<div class="section catalog random">
 
-	<div class="header">
+<div class="wrapper">
 
-		<div class="wrapper">
+<h2>May we suggest something?</h2>
 
-			<h1 class="branding-title"><a href="#">Personal Media Library</a></h1>
+<ul class="items">
+<li><a href="#"><img src="img/media/forest_gump.jpg" alt="Forrest Gump"><p>View Details</p></a></li><li><a href="#"><img src="img/media/princess_bride.jpg" alt="The Princess Bride"><p>View Details</p></a></li><li><a href="#"><img src="img/media/elvis_presley.jpg" alt="Elvis Forever"><p>View Details</p></a></li><li><a href="#"><img src="img/media/garth_brooks.jpg" alt="No Fences"><p>View Details</p></a></li>								
+</ul>
 
-			<ul class="nav">
-                <li class="books"><a href="#">Books</a></li>
-                <li class="movies"><a href="#">Movies</a></li>
-                <li class="music"><a href="#">Music</a></li>
-                <li class="suggest"><a href="#">Suggest</a></li>
-            </ul>
+</div>
 
-		</div>
+</div>
 
-	</div>
+</div><!-- end content-->
 
-	<div id="content">
-		<div class="section catalog random">
+<div class="footer">
 
-			<div class="wrapper">
+<div class="wrapper">
 
-				<h2>May we suggest something?</h2>
+<ul>		
+<li><a href="#">Twitter</a></li>
+<li><a href="#">Facebook</a></li>
+</ul>
 
-								<ul class="items">
-					<li><a href="#"><img src="img/media/forest_gump.jpg" alt="Forrest Gump"><p>View Details</p></a></li><li><a href="#"><img src="img/media/princess_bride.jpg" alt="The Princess Bride"><p>View Details</p></a></li><li><a href="#"><img src="img/media/elvis_presley.jpg" alt="Elvis Forever"><p>View Details</p></a></li><li><a href="#"><img src="img/media/garth_brooks.jpg" alt="No Fences"><p>View Details</p></a></li>								
-				</ul>
+<p>&copy;<?php echo date("Y");?> Personal Media Library</p>
 
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="footer">
-
-		<div class="wrapper">
-
-			<ul>		
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Facebook</a></li>
-			</ul>
-
-			<p>&copy;<?php echo date("Y");?> Personal Media Library</p>
-
-		</div>
+</div>
 	
-	</div>
+</div>
 
 </body>
 </html>
